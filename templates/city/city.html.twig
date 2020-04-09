@@ -1,0 +1,54 @@
+{% extends 'base.html.twig' %}
+
+{% block tilte %}Steden{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="show-cities-container p-3 mt-4">
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="article-text city-flex">
+                                {% for row in rows %}
+                                    <div class="col-sm-4">
+                                        <h2>{{ row.cit_name }}</h2>
+                                        <ul>
+                                            <li>Inwoners: {{ row.cit_inhabitants }}</li>
+                                            <li>Coordinates: {{ row.cit_coordinate_x }} / {{ row.cit_coordinate_y }}</li>
+                                        </ul>
+                                        <a href="#">
+                                            <img title="{{ row.img_filename }}" class="img-fluid" src='images/{{row.img_filename}}.jpg'>
+                                        </a>
+                                        <a href="#" class="primary-button"><span class="breadcrumb black">Meer info over {{ row.cit_name }}</span></a>
+
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+{#    <div class="col-sm-4">#}
+
+{#        <h3>{{ title }}</h3>#}
+
+{#        <ul>#}
+{#            <li>Inwoners: {{ inhabitants }}</li>#}
+{#        </ul>#}
+
+{#        <a href="#">#}
+{#            <img title="1" class="img-fluid" src={{ asset( 'images/berlin.jpg')}}>#}
+{#        </a>#}
+{#        <span class="breadcrumb black">{{ title }}</span>#}
+
+{#    </div>#}
+{% endblock %}
