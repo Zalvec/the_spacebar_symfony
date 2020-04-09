@@ -14,10 +14,10 @@ class MarkdownHelper
     private $markdown;
     private $logger;
 
-    public function __construct(AdapterInterface $cache, MarkdownInterface $markdown, LoggerInterface $logger){
+    public function __construct(AdapterInterface $cache, MarkdownInterface $markdown, LoggerInterface $markdownLogger){
         $this->cache = $cache;
         $this->markdown = $markdown;
-        $this->logger = $logger;
+        $this->logger = $markdownLogger;
     }
 
     /**
