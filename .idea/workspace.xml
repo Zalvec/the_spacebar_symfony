@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4c102a9-08f5-4bf6-9361-465f23fc8f8b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env.dist" beforeDir="false" afterPath="$PROJECT_DIR$/.env.dist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/packages/nexy_slack.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/nexy_slack.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -124,6 +123,8 @@
       <option name="presentableId" value="Default" />
       <updated>1586452355049</updated>
       <workItem from="1586452358044" duration="3549000" />
+      <workItem from="1586456163885" duration="112000" />
+      <workItem from="1586626842969" duration="512000" />
     </task>
     <servers />
   </component>
@@ -135,9 +136,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="277" y="118" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586454405375" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586456163680">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586626854835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586456163680" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586626854835" />
   </component>
 </project>
