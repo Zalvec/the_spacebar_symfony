@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4c102a9-08f5-4bf6-9361-465f23fc8f8b" name="Default Changelist" comment="" />
+    <list default="true" id="c4c102a9-08f5-4bf6-9361-465f23fc8f8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Helper/LoggerTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/SlackClient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +20,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -120,7 +126,8 @@
       <updated>1586452355049</updated>
       <workItem from="1586452358044" duration="3549000" />
       <workItem from="1586456163885" duration="112000" />
-      <workItem from="1586626842969" duration="832000" />
+      <workItem from="1586626842969" duration="3164000" />
+      <workItem from="1586679572264" duration="4738000" />
     </task>
     <servers />
   </component>
@@ -128,13 +135,35 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2448" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586682050071">
+      <screen x="1920" y="0" width="1536" height="832" />
+    </state>
+    <state x="2448" y="215" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1586682050071" />
+    <state x="2419" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586683895740">
+      <screen x="1920" y="0" width="1536" height="832" />
+    </state>
+    <state x="2419" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1586683895740" />
+    <state x="2419" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1586683351451">
+      <screen x="1920" y="0" width="1536" height="832" />
+    </state>
+    <state x="2419" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1586683351451" />
     <state x="277" y="118" key="CommitChangelistDialog2" timestamp="1586454405375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="277" y="118" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586454405375" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586626854835">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2208" y="270" key="NewPhpClassDialog" timestamp="1586683333490">
+      <screen x="1920" y="0" width="1536" height="832" />
+    </state>
+    <state x="360" y="338" key="NewPhpClassDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586627916398" />
+    <state x="2208" y="270" key="NewPhpClassDialog/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1586683333490" />
+    <state x="2445" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1586679572308">
+      <screen x="1920" y="0" width="1536" height="832" />
     </state>
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586626854835" />
+    <state x="2445" y="275" key="com.intellij.ide.util.TipDialog/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1586679572308" />
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586684229149">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1586684229149" />
   </component>
 </project>
